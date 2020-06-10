@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="其他滤镜" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="杨幂.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="bb3-rI-pLe">
+                                <rect key="frame" x="0.0" y="44" width="414" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="vEm-3y-qLd"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="杨幂.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="XAm-9e-fVp">
+                                <rect key="frame" x="0.0" y="384" width="414" height="478"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NiO-SL-JmP">
+                                <rect key="frame" x="118" y="352" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="卡通"/>
+                                <connections>
+                                    <action selector="katong:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UsH-QE-hpw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bmG-v9-le2">
+                                <rect key="frame" x="192" y="352" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="素描"/>
+                                <connections>
+                                    <action selector="sumiao:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fWd-um-z7k"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UIv-sm-9Xk">
+                                <rect key="frame" x="285" y="352" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="浮雕"/>
+                                <connections>
+                                    <action selector="fudiao:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p1c-JH-9m5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMY-X3-yR9">
+                                <rect key="frame" x="43" y="352" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="褐色"/>
+                                <connections>
+                                    <action selector="heshe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eBX-LL-Pbz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XAm-9e-fVp" secondAttribute="trailing" id="5OV-wE-3mD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bb3-rI-pLe" secondAttribute="trailing" id="9GY-Rj-TCG"/>
+                            <constraint firstItem="XAm-9e-fVp" firstAttribute="top" secondItem="bb3-rI-pLe" secondAttribute="bottom" constant="40" id="FoI-Iz-ETH"/>
+                            <constraint firstItem="XAm-9e-fVp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Jao-ug-SAm"/>
+                            <constraint firstItem="bb3-rI-pLe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Xf3-1i-qwf"/>
+                            <constraint firstItem="bb3-rI-pLe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="YG7-JN-fHW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XAm-9e-fVp" secondAttribute="bottom" id="kSE-F0-cGj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="picture" destination="XAm-9e-fVp" id="27e-ln-U0W"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-87" y="5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="杨幂.jpeg" width="1024" height="1339"/>
+    </resources>
+</document>

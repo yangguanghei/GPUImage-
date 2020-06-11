@@ -43,6 +43,7 @@
 		1A8A037FF5A88EB20D636DFDD05A6F93 /* GPUImagePrewittEdgeDetectionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD157A32436044C4A7E8A5A5A337FD1 /* GPUImagePrewittEdgeDetectionFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		1BBD944DF948C6274CE80877142ECB2C /* GPUImageLightenBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4948EAD9FA1E4A4776D18395839AD9A3 /* GPUImageLightenBlendFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C483D95099FA78289CFE78904A35859 /* GPUImageMotionBlurFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F988AAD17E9D93064DDB8073DDF18 /* GPUImageMotionBlurFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1D44E2F4BEFEDB5381B3FB1B158B4A9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3043B7C59E65DB9B470FC79760FC7436 /* Foundation.framework */; };
 		1E48FDEC929EC43C16CFEF4F1FE55A40 /* GPUImageSoftLightBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 80618D69D58F093D081F275607617A38 /* GPUImageSoftLightBlendFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E97030DF2CA81D60C9CFB8A25DFFC7B /* GPUImageVignetteFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B315E13E291B2F5B7373334D6564273 /* GPUImageVignetteFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EA2CFBF54ED2CBFEC38E35CAE392AB7 /* GPUImageGrayscaleFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EB1858EBFF14A3A7F03FBAE0964FC1 /* GPUImageGrayscaleFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -69,7 +70,7 @@
 		2BDC2D78E8964B5B4844A0D334F3065B /* GPUImageCrosshairGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C3D2CC70C94B37D81725683F69D9F7 /* GPUImageCrosshairGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C37B435CA8EB63ADD8A44A0CEDD786D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4AECF035D25ADC764144B9A5A3EB8C /* OpenGLES.framework */; };
 		2C544EA01039E6509CB9951908DD5641 /* GPUImageToonFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D2B858F4DCA2EFAD12009E954A9A8DD /* GPUImageToonFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2DEBD1533FF9295713B42291B12C95D1 /* Pods-GPUImage的使用-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7237276E1FAE13BE132C41FC9729EFA8 /* Pods-GPUImage的使用-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DEBD1533FF9295713B42291B12C95D1 /* Pods-GPUImage的使用-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC6E4A6E8018703B6D5520E0E7EF9564 /* Pods-GPUImage的使用-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2EAAB5BE41D4EC8272C553B21FD78189 /* GPUImageContrastFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 026AE4BEF10ACCD68760FBEC0BF54374 /* GPUImageContrastFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2EEEEF0B06B62C887A255C1100ED63ED /* GPUImageNobleCornerDetectionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CA414CDFF94C3D7B675681882A6DD8C /* GPUImageNobleCornerDetectionFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F397BA13B691586BB2D26D46E28D2ED /* GPUImageSolidColorGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F05AA2AD0D858B783CD3AE9DE0D731D6 /* GPUImageSolidColorGenerator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -135,7 +136,7 @@
 		5289C66F4B3C1DF21B238D7C6275314E /* GPUImagePicture.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEB6E3B9262C30618F59A78CFAC5A7D /* GPUImagePicture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54C899363BCA3865EEDA9327B5D5C0CB /* GPUImageGlassSphereFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 95154792895AC118142564CFBC286A65 /* GPUImageGlassSphereFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		54FDDB53DBF7EF2219A6ECD8C9DF303B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A01267A93D0F71A71874D65CC49D75 /* CoreMedia.framework */; };
-		551C35C65035CC1609EA630B7A700471 /* Pods-其他滤镜-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6CC6E07048732A719EDF3559824801 /* Pods-其他滤镜-dummy.m */; };
+		551C35C65035CC1609EA630B7A700471 /* Pods-其他滤镜-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80293EDA2E17F9BD39F6F4120709C13C /* Pods-其他滤镜-dummy.m */; };
 		566CC5E10FDBB562F1F9373ED34BB096 /* GPUImageFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E530C628140724DAEAF3605F27F13010 /* GPUImageFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56DD5BD3FC07EA9E18E619B6E0A93B52 /* GPUImageUnsharpMaskFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = CAE8262908315A204ACCC27CE6007EDD /* GPUImageUnsharpMaskFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5757ECB4DF0FE68920D6311302DE39AE /* GPUImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54E83531E9327E785A1DE6276EA396A5 /* GPUImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -191,7 +192,7 @@
 		7D5869946A66C8DBDF15F185E9AC9FE3 /* GPUImageHueBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 29BEE031295ACE65C33931A5675D83DF /* GPUImageHueBlendFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E39EC28697BF217C35A696407196F04 /* GPUImageFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9281F56DC735FEA00C551C237FE120D6 /* GPUImageFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FAD756645DE343CC9967E0D57723421 /* GPUImageColorInvertFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 889580317955E899ED210DD27B8AF75A /* GPUImageColorInvertFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		81F9D3386972A7D082BA9CEA3F32739D /* Pods-其他滤镜-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5C30C768024DD572C10532EEF50743 /* Pods-其他滤镜-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81F9D3386972A7D082BA9CEA3F32739D /* Pods-其他滤镜-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BD1999C26C8ECEA169850F362370D27 /* Pods-其他滤镜-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		81FF714D39B8ED83CD5D6773B694204A /* GPUImageThresholdedNonMaximumSuppressionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 927A4CC6121005BB6A4951E2DDF48F75 /* GPUImageThresholdedNonMaximumSuppressionFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		8253071B7FC509D1079BE88FE09C50E8 /* GPUImageBoxBlurFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = C57FE6103B9DF352A4F322938617FD5C /* GPUImageBoxBlurFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		82AC1E0BCB564FD48C2CA6C95D5D3668 /* GPUImageRawDataInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D24A4B453806EE1DA5DC8D77AC5602A /* GPUImageRawDataInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -292,9 +293,10 @@
 		D0427E62E3A4753491E93B3D651D611A /* GPUImageWhiteBalanceFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7581A00C518822318E57D56FF8EFFFF8 /* GPUImageWhiteBalanceFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1119CBFC90B26F7DD96E32BCEED5BC7 /* GPUImageTextureInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 978298185A28E06CCCB211832C3476EA /* GPUImageTextureInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D34DA7DC587DB68992CD8680E1AB36F6 /* GPUImageColorDodgeBlendFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266E8B08AD4753F8A68C331D83C732E /* GPUImageColorDodgeBlendFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D39F82F4AB5580C2EBDCDC20FE065DA6 /* Pods-GPUImage的使用-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2A6AF55B1E6570A9B65BDEA1274CB9 /* Pods-GPUImage的使用-dummy.m */; };
+		D39F82F4AB5580C2EBDCDC20FE065DA6 /* Pods-GPUImage的使用-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 770BA482FA50FCEAFB93EE4FCDABB358 /* Pods-GPUImage的使用-dummy.m */; };
 		D402D06BA6DC32621F6EE11F7848F3C8 /* GPUImageVignetteFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4D7AC2A1D6F394FFFCDA4B8E02BE21 /* GPUImageVignetteFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		D41BB30935141FED18485E408E35C191 /* GPUImageChromaKeyFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 91E3AE4CF8E1815B10FFCC6AB44CB63C /* GPUImageChromaKeyFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D55AF7A27B3BFFD8BE005B95D9667CDE /* Pods-美颜相机-GPUImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5A385B5A505EC4999D3B0BD0BA677D /* Pods-美颜相机-GPUImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5AFDE309A9A9353460BA1C59A274DF3 /* GPUImageEmbossFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 17E160410830CD869070DD0B60692F45 /* GPUImageEmbossFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D6259F8E004749CBC7EF21D827827BD3 /* GPUImageSwirlFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A6BF642C1C0E2462E077C234E0E611 /* GPUImageSwirlFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		D6CC08F8AF42940936473DA1FE832BD8 /* GPUImageCropFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A9D4D357DB99DDFE91F93FC5A19345 /* GPUImageCropFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -324,6 +326,7 @@
 		E7E1648AD4E1074988653312C7B723FA /* GPUImageFASTCornerDetectionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E68005BDEAA999A3C011C754917 /* GPUImageFASTCornerDetectionFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		EB02A19DBD5F6F17C4379D3582D8AC68 /* GPUImageAdaptiveThresholdFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 683D28BE61FC4878F8A81325FA4E261F /* GPUImageAdaptiveThresholdFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		EBCEEF4B40D01FB7EFF66D80BEE9DC68 /* GPUImageHighlightShadowFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = A28AE29773FD7FEA7195A47865626F14 /* GPUImageHighlightShadowFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC88C09C0064C1937E54E0EBD76047D0 /* Pods-美颜相机-GPUImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61438E87EAC64B478AAB1F8C95665D11 /* Pods-美颜相机-GPUImage-dummy.m */; };
 		ED013365884F1DC61AE0A5FB02F4F44D /* GPUImageMovieComposition.m in Sources */ = {isa = PBXBuildFile; fileRef = F23DF6CBF643D1CF316790E05BF0D595 /* GPUImageMovieComposition.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		ED70917E0AA7A3864F21447CC82130AA /* GPUImagePolkaDotFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8125533977978D0F9301A56D0F057195 /* GPUImagePolkaDotFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE9E4C2EDF97625ED2A58EB38FA59BF8 /* GPUImageGaussianSelectiveBlurFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 812170BFDBA63AE5B4937F50262D4EB4 /* GPUImageGaussianSelectiveBlurFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -372,9 +375,17 @@
 			remoteGlobalIDString = DB13B1641D72A72D8C9AE53FF81C8950;
 			remoteInfo = GPUImage;
 		};
+		EB6D4D9933DFE1026F5A144D0F964CB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB13B1641D72A72D8C9AE53FF81C8950;
+			remoteInfo = GPUImage;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00B0BF8497EE07AC9F579A021098EE9B /* Pods-美颜相机-GPUImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-美颜相机-GPUImage-Info.plist"; sourceTree = "<group>"; };
 		01269178C050F32E0AFD624EA01264C2 /* GPUImageWhiteBalanceFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageWhiteBalanceFilter.m; path = framework/Source/GPUImageWhiteBalanceFilter.m; sourceTree = "<group>"; };
 		013D557460D9A322E65B94DC8A95E3C2 /* Pods_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_____.framework; path = "Pods-其他滤镜.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01948288F22EC7702EE6EC58771C2797 /* GPUImageDifferenceBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageDifferenceBlendFilter.h; path = framework/Source/GPUImageDifferenceBlendFilter.h; sourceTree = "<group>"; };
@@ -396,6 +407,7 @@
 		0E790173BB5F75236891FE389C2020D8 /* GPUImageChromaKeyBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageChromaKeyBlendFilter.h; path = framework/Source/GPUImageChromaKeyBlendFilter.h; sourceTree = "<group>"; };
 		0E9FE3D1D59BE35B1A268C759ADFB851 /* GPUImagePerlinNoiseFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImagePerlinNoiseFilter.m; path = framework/Source/GPUImagePerlinNoiseFilter.m; sourceTree = "<group>"; };
 		1066F32DF97F9B169B29641B6A1A9280 /* GPUImageAverageLuminanceThresholdFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageAverageLuminanceThresholdFilter.m; path = framework/Source/GPUImageAverageLuminanceThresholdFilter.m; sourceTree = "<group>"; };
+		11B7BB878889922BFD397D9EC598584A /* Pods-其他滤镜.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-其他滤镜.modulemap"; sourceTree = "<group>"; };
 		1223A526945498D482B0603B362BA8BA /* GPUImageLevelsFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageLevelsFilter.m; path = framework/Source/GPUImageLevelsFilter.m; sourceTree = "<group>"; };
 		122FDB3F9D64163D0DAF747439DFC858 /* GPUImageMultiplyBlendFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageMultiplyBlendFilter.m; path = framework/Source/GPUImageMultiplyBlendFilter.m; sourceTree = "<group>"; };
 		12F56D12E8634AD153F12E1E6018A6D8 /* GPUImageVideoCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageVideoCamera.m; path = framework/Source/GPUImageVideoCamera.m; sourceTree = "<group>"; };
@@ -411,10 +423,10 @@
 		17E160410830CD869070DD0B60692F45 /* GPUImageEmbossFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageEmbossFilter.h; path = framework/Source/GPUImageEmbossFilter.h; sourceTree = "<group>"; };
 		190CD00263D53ECFF5A6AEAEFA00E9C4 /* GPUImageGaussianBlurPositionFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageGaussianBlurPositionFilter.m; path = framework/Source/GPUImageGaussianBlurPositionFilter.m; sourceTree = "<group>"; };
 		191B7AFED9F736CE7F236633334753BF /* GPUImageDivideBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageDivideBlendFilter.h; path = framework/Source/GPUImageDivideBlendFilter.h; sourceTree = "<group>"; };
+		197F388BAB9ACF578E833FEA84CFB93E /* Pods-美颜相机-GPUImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-美颜相机-GPUImage.release.xcconfig"; sourceTree = "<group>"; };
 		1A8125695F68FA25226C60AA7E973A47 /* lookup_soft_elegance_1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = lookup_soft_elegance_1.png; path = framework/Resources/lookup_soft_elegance_1.png; sourceTree = "<group>"; };
 		1B0FFBA36B622945D060B612D994F63D /* GPUImageExclusionBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageExclusionBlendFilter.h; path = framework/Source/GPUImageExclusionBlendFilter.h; sourceTree = "<group>"; };
 		1B486BFD90A772020370C649ACD28A18 /* GPUImagePinchDistortionFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImagePinchDistortionFilter.m; path = framework/Source/GPUImagePinchDistortionFilter.m; sourceTree = "<group>"; };
-		1B560600CBC3BAD2D79FBBD8F4030E0A /* Pods-其他滤镜-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-其他滤镜-frameworks.sh"; sourceTree = "<group>"; };
 		1B7625F7C83CD0DDF65CBC6305E43C51 /* GPUImageExposureFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageExposureFilter.h; path = framework/Source/GPUImageExposureFilter.h; sourceTree = "<group>"; };
 		1C5886675EC96D11ECB137EA0E713074 /* GPUImageVoronoiConsumerFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageVoronoiConsumerFilter.h; path = framework/Source/GPUImageVoronoiConsumerFilter.h; sourceTree = "<group>"; };
 		1C77C68AD81094233E39C90A77F89382 /* GPUImagePoissonBlendFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImagePoissonBlendFilter.m; path = framework/Source/GPUImagePoissonBlendFilter.m; sourceTree = "<group>"; };
@@ -426,17 +438,15 @@
 		20672989BE5BC46F91629BFBAF22B451 /* GPUImageLuminanceThresholdFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageLuminanceThresholdFilter.m; path = framework/Source/GPUImageLuminanceThresholdFilter.m; sourceTree = "<group>"; };
 		213C538773EC8DF6003F4EBA2B0BE302 /* GPUImageSaturationBlendFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageSaturationBlendFilter.m; path = framework/Source/GPUImageSaturationBlendFilter.m; sourceTree = "<group>"; };
 		220DA63228EFA0A6B94D1545546A380D /* GPUImageGammaFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageGammaFilter.h; path = framework/Source/GPUImageGammaFilter.h; sourceTree = "<group>"; };
-		2461CFD1CEE98BB541339583079C82F1 /* Pods-GPUImage的使用.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GPUImage的使用.modulemap"; sourceTree = "<group>"; };
-		24C1330FB56441EA6670C2E0CC3C1179 /* Pods-GPUImage的使用.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPUImage的使用.debug.xcconfig"; sourceTree = "<group>"; };
 		24D5031786A9804D97CA0109384AC3F6 /* GPUImageDissolveBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageDissolveBlendFilter.h; path = framework/Source/GPUImageDissolveBlendFilter.h; sourceTree = "<group>"; };
 		252BBAA4E1EF62E57589700AFAB61DA9 /* GPUImageTwoPassTextureSamplingFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageTwoPassTextureSamplingFilter.h; path = framework/Source/GPUImageTwoPassTextureSamplingFilter.h; sourceTree = "<group>"; };
-		25CD82806465237143A83FCB9EDD36B5 /* Pods-其他滤镜-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-其他滤镜-acknowledgements.markdown"; sourceTree = "<group>"; };
 		26A36F4CE6BC9A2BFB506E36F4654931 /* GPUImageGaussianBlurFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageGaussianBlurFilter.h; path = framework/Source/GPUImageGaussianBlurFilter.h; sourceTree = "<group>"; };
 		2753D8000524189850A9AC6E122AAB0D /* GPUImageNonMaximumSuppressionFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageNonMaximumSuppressionFilter.m; path = framework/Source/GPUImageNonMaximumSuppressionFilter.m; sourceTree = "<group>"; };
 		299A1CC942A4A4D3FC7963A359E022E4 /* GPUImageSaturationFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageSaturationFilter.m; path = framework/Source/GPUImageSaturationFilter.m; sourceTree = "<group>"; };
 		29BEE031295ACE65C33931A5675D83DF /* GPUImageHueBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageHueBlendFilter.h; path = framework/Source/GPUImageHueBlendFilter.h; sourceTree = "<group>"; };
 		29C7E60CBEFB2C1E89174FC65D62A1C8 /* GPUImageColorBlendFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageColorBlendFilter.m; path = framework/Source/GPUImageColorBlendFilter.m; sourceTree = "<group>"; };
 		2B315E13E291B2F5B7373334D6564273 /* GPUImageVignetteFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageVignetteFilter.h; path = framework/Source/GPUImageVignetteFilter.h; sourceTree = "<group>"; };
+		2D0886A27D053B959EE1B53FEB88A49F /* Pods-美颜相机-GPUImage-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-美颜相机-GPUImage-acknowledgements.plist"; sourceTree = "<group>"; };
 		2D22B3E8270F2138466FF119F96CD02F /* GPUImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GPUImage.debug.xcconfig; sourceTree = "<group>"; };
 		2D72854B0D52957CF8D5232044D8A8EC /* GPUImageMedianFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageMedianFilter.h; path = framework/Source/GPUImageMedianFilter.h; sourceTree = "<group>"; };
 		2EA588B589C4E328107AB9196D8BE664 /* GPUImageSolidColorGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageSolidColorGenerator.h; path = framework/Source/GPUImageSolidColorGenerator.h; sourceTree = "<group>"; };
@@ -455,33 +465,40 @@
 		35C047580F95E5491FB933D233FB2EBF /* GPUImageAddBlendFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageAddBlendFilter.m; path = framework/Source/GPUImageAddBlendFilter.m; sourceTree = "<group>"; };
 		36141ECF5B9066EA775C3D7E09601C67 /* GPUImageUnsharpMaskFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageUnsharpMaskFilter.m; path = framework/Source/GPUImageUnsharpMaskFilter.m; sourceTree = "<group>"; };
 		362EC2A983DDAB7EA4CDF6649AA08247 /* GPUImageThresholdSketchFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageThresholdSketchFilter.m; path = framework/Source/GPUImageThresholdSketchFilter.m; sourceTree = "<group>"; };
+		36ECCB2614009CD5F065123AE6133C52 /* Pods-GPUImage的使用-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPUImage的使用-acknowledgements.plist"; sourceTree = "<group>"; };
 		36FC921B02A9388EDD3331DF123B2442 /* GPUImageDirectionalSobelEdgeDetectionFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageDirectionalSobelEdgeDetectionFilter.m; path = framework/Source/GPUImageDirectionalSobelEdgeDetectionFilter.m; sourceTree = "<group>"; };
 		370A404FC1C21F35FC883EFF5F24EFA6 /* lookup_soft_elegance_2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = lookup_soft_elegance_2.png; path = framework/Resources/lookup_soft_elegance_2.png; sourceTree = "<group>"; };
 		375B92CF54E54B2F17847EFBF3DFC8FC /* GPUImageTwoInputCrossTextureSamplingFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageTwoInputCrossTextureSamplingFilter.m; path = framework/Source/GPUImageTwoInputCrossTextureSamplingFilter.m; sourceTree = "<group>"; };
 		376C043B32B69A99AB22E4DB7117D797 /* GPUImageTwoPassFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageTwoPassFilter.h; path = framework/Source/GPUImageTwoPassFilter.h; sourceTree = "<group>"; };
 		37A70EDA0D462BC7A7948AC738815070 /* GPUImageLowPassFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageLowPassFilter.m; path = framework/Source/GPUImageLowPassFilter.m; sourceTree = "<group>"; };
 		37A9C63B3392AAB1535C7A4A68A6C24E /* GPUImageLookupFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageLookupFilter.m; path = framework/Source/GPUImageLookupFilter.m; sourceTree = "<group>"; };
+		388C33CD9B317A8E1C200689DB638DCB /* Pods-美颜相机-GPUImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-美颜相机-GPUImage.modulemap"; sourceTree = "<group>"; };
 		3928DCF592C6FB68191A76079F473754 /* GPUImageClosingFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageClosingFilter.m; path = framework/Source/GPUImageClosingFilter.m; sourceTree = "<group>"; };
 		399C727146C0816C076F8B284E961020 /* GPUImageMedianFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageMedianFilter.m; path = framework/Source/GPUImageMedianFilter.m; sourceTree = "<group>"; };
-		39BD62ED12B96D7A9B03E637A5995E1F /* Pods-其他滤镜-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-其他滤镜-Info.plist"; sourceTree = "<group>"; };
 		39F4BDC86387E6873F27071DB34AAF6E /* GPUImageSingleComponentGaussianBlurFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageSingleComponentGaussianBlurFilter.m; path = framework/Source/GPUImageSingleComponentGaussianBlurFilter.m; sourceTree = "<group>"; };
 		3A716D3614A6A8BD4686121C8485877B /* GPUImageBulgeDistortionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageBulgeDistortionFilter.h; path = framework/Source/GPUImageBulgeDistortionFilter.h; sourceTree = "<group>"; };
+		3BD1999C26C8ECEA169850F362370D27 /* Pods-其他滤镜-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-其他滤镜-umbrella.h"; sourceTree = "<group>"; };
 		3BE4D01A650573C610BE6811864E462F /* GPUImageAmatorkaFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageAmatorkaFilter.h; path = framework/Source/GPUImageAmatorkaFilter.h; sourceTree = "<group>"; };
 		3CA414CDFF94C3D7B675681882A6DD8C /* GPUImageNobleCornerDetectionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageNobleCornerDetectionFilter.h; path = framework/Source/GPUImageNobleCornerDetectionFilter.h; sourceTree = "<group>"; };
-		3D5C30C768024DD572C10532EEF50743 /* Pods-其他滤镜-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-其他滤镜-umbrella.h"; sourceTree = "<group>"; };
 		3DC6B34B0D1B7A996206C3194F287BD7 /* GPUImageHarrisCornerDetectionFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageHarrisCornerDetectionFilter.m; path = framework/Source/GPUImageHarrisCornerDetectionFilter.m; sourceTree = "<group>"; };
 		402218DF3B81F811A9E57A31F619F5FE /* GPUImageLuminosity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageLuminosity.h; path = framework/Source/GPUImageLuminosity.h; sourceTree = "<group>"; };
 		407226D76CCE0B64D58F9B8EEF4D481D /* GPUImageSketchFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageSketchFilter.m; path = framework/Source/GPUImageSketchFilter.m; sourceTree = "<group>"; };
+		40B0C50252BEC388B8470DDB05DB626C /* Pods-GPUImage的使用-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GPUImage的使用-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40B41280101E1EA6F06FC9DE7929231F /* Pods-其他滤镜-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-其他滤镜-acknowledgements.plist"; sourceTree = "<group>"; };
 		4461B8B956A9C475AC49BF9AAD2FA28B /* GPUImageSobelEdgeDetectionFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageSobelEdgeDetectionFilter.m; path = framework/Source/GPUImageSobelEdgeDetectionFilter.m; sourceTree = "<group>"; };
 		448364D38D491D801031CC1D2FBE3F59 /* GPUImageRawDataInput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageRawDataInput.m; path = framework/Source/GPUImageRawDataInput.m; sourceTree = "<group>"; };
+		4490759C0E421F631FAF358EBDDE18B8 /* Pods-GPUImage的使用.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GPUImage的使用.modulemap"; sourceTree = "<group>"; };
+		450E23C336AA10D17E401816EFF0BE2C /* Pods-美颜相机-GPUImage-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-美颜相机-GPUImage-frameworks.sh"; sourceTree = "<group>"; };
 		45251F8F7E67FA000E1874DCD014F7BE /* GPUImageColorMatrixFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageColorMatrixFilter.m; path = framework/Source/GPUImageColorMatrixFilter.m; sourceTree = "<group>"; };
 		453CBE58364B31D9DDB745CA5A001D04 /* GPUImageHistogramFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageHistogramFilter.m; path = framework/Source/GPUImageHistogramFilter.m; sourceTree = "<group>"; };
 		478A7582444C5EB372CFB45A1194644D /* GPUImageMovieWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageMovieWriter.m; path = framework/Source/iOS/GPUImageMovieWriter.m; sourceTree = "<group>"; };
 		4948EAD9FA1E4A4776D18395839AD9A3 /* GPUImageLightenBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageLightenBlendFilter.h; path = framework/Source/GPUImageLightenBlendFilter.h; sourceTree = "<group>"; };
+		4A6A3676F5DE5F54E57AD6303EC0B939 /* Pods______GPUImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods______GPUImage.framework; path = "Pods-美颜相机-GPUImage.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A8ECB8783E9742A0D5821BC9882A786 /* GPUImageMovieComposition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageMovieComposition.h; path = framework/Source/GPUImageMovieComposition.h; sourceTree = "<group>"; };
 		4B2989FA377E34DFF1EC478E5E70C901 /* GPUImagePixellateFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImagePixellateFilter.m; path = framework/Source/GPUImagePixellateFilter.m; sourceTree = "<group>"; };
 		4BA1DD0DAA7E99FBCFF336827A6B45E9 /* GPUImageLineGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageLineGenerator.h; path = framework/Source/GPUImageLineGenerator.h; sourceTree = "<group>"; };
 		4BD434090DB6C6FE970C53BD2946F28B /* GPUImageOpacityFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageOpacityFilter.m; path = framework/Source/GPUImageOpacityFilter.m; sourceTree = "<group>"; };
+		4CBA3C1BB96B99C1C3B20A3AC72AD1C5 /* Pods-GPUImage的使用-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPUImage的使用-Info.plist"; sourceTree = "<group>"; };
 		4D212B46E51964FAFA2F5C329BDF853C /* GPUImageKuwaharaRadius3Filter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageKuwaharaRadius3Filter.h; path = framework/Source/GPUImageKuwaharaRadius3Filter.h; sourceTree = "<group>"; };
 		4E212673D37D45F885387C400E31F704 /* GPUImageLuminanceThresholdFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageLuminanceThresholdFilter.h; path = framework/Source/GPUImageLuminanceThresholdFilter.h; sourceTree = "<group>"; };
 		4EA25EDC461D8A6C9ED8F8718CA66BE6 /* GPUImageGaussianBlurPositionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageGaussianBlurPositionFilter.h; path = framework/Source/GPUImageGaussianBlurPositionFilter.h; sourceTree = "<group>"; };
@@ -511,6 +528,7 @@
 		604DB7A83B98D35E77C2EF16C3ACFFC8 /* GPUImageContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageContext.h; path = framework/Source/iOS/GPUImageContext.h; sourceTree = "<group>"; };
 		60BB660B6814A894F0FF5328DAE12F88 /* GPUImageRGBFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageRGBFilter.m; path = framework/Source/GPUImageRGBFilter.m; sourceTree = "<group>"; };
 		60F282EBA29AF76A6CBA82CA5D0F5CE6 /* GPUImageFalseColorFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageFalseColorFilter.m; path = framework/Source/GPUImageFalseColorFilter.m; sourceTree = "<group>"; };
+		61438E87EAC64B478AAB1F8C95665D11 /* Pods-美颜相机-GPUImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-美颜相机-GPUImage-dummy.m"; sourceTree = "<group>"; };
 		62D929CB5E2016632C86CB45ADB5CD29 /* GPUImageFilterPipeline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageFilterPipeline.h; path = framework/Source/GPUImageFilterPipeline.h; sourceTree = "<group>"; };
 		63EFD918DAA415E57837E4B8ADBDEF1F /* GPUImageClosingFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageClosingFilter.h; path = framework/Source/GPUImageClosingFilter.h; sourceTree = "<group>"; };
 		64B61164450FF97C4691AABFA68FB031 /* GPUImageRGBErosionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageRGBErosionFilter.h; path = framework/Source/GPUImageRGBErosionFilter.h; sourceTree = "<group>"; };
@@ -527,17 +545,17 @@
 		6C17193563DFCBAABF46A9CED65CE54F /* GPUImageLanczosResamplingFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageLanczosResamplingFilter.m; path = framework/Source/GPUImageLanczosResamplingFilter.m; sourceTree = "<group>"; };
 		6D24A4B453806EE1DA5DC8D77AC5602A /* GPUImageRawDataInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageRawDataInput.h; path = framework/Source/GPUImageRawDataInput.h; sourceTree = "<group>"; };
 		6D2B858F4DCA2EFAD12009E954A9A8DD /* GPUImageToonFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageToonFilter.h; path = framework/Source/GPUImageToonFilter.h; sourceTree = "<group>"; };
-		6D6CC6E07048732A719EDF3559824801 /* Pods-其他滤镜-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-其他滤镜-dummy.m"; sourceTree = "<group>"; };
 		6D80B10B5D34D383BDC43787453F14E2 /* GPUImageDirectionalSobelEdgeDetectionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageDirectionalSobelEdgeDetectionFilter.h; path = framework/Source/GPUImageDirectionalSobelEdgeDetectionFilter.h; sourceTree = "<group>"; };
 		6FA4BBDE655A8AED08C851E9F787630E /* GPUImageRGBErosionFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageRGBErosionFilter.m; path = framework/Source/GPUImageRGBErosionFilter.m; sourceTree = "<group>"; };
 		72145E0362C9F9C8BE9F0880C429BC97 /* GPUImageGlassSphereFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageGlassSphereFilter.h; path = framework/Source/GPUImageGlassSphereFilter.h; sourceTree = "<group>"; };
-		7237276E1FAE13BE132C41FC9729EFA8 /* Pods-GPUImage的使用-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GPUImage的使用-umbrella.h"; sourceTree = "<group>"; };
 		74ECE0334CC1D5C9ED6FE99373CDBD26 /* GPUImagePrewittEdgeDetectionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImagePrewittEdgeDetectionFilter.h; path = framework/Source/GPUImagePrewittEdgeDetectionFilter.h; sourceTree = "<group>"; };
 		7581A00C518822318E57D56FF8EFFFF8 /* GPUImageWhiteBalanceFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageWhiteBalanceFilter.h; path = framework/Source/GPUImageWhiteBalanceFilter.h; sourceTree = "<group>"; };
 		75AF6EA70AAB07632F6A6BE47A34A38E /* GPUImageTransformFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageTransformFilter.m; path = framework/Source/GPUImageTransformFilter.m; sourceTree = "<group>"; };
 		7616B4C02256FBD144D10C9F7608217C /* GPUImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GPUImage.release.xcconfig; sourceTree = "<group>"; };
 		761CAACE95013E463AE367AF2027540E /* GPUImageDivideBlendFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageDivideBlendFilter.m; path = framework/Source/GPUImageDivideBlendFilter.m; sourceTree = "<group>"; };
+		770BA482FA50FCEAFB93EE4FCDABB358 /* Pods-GPUImage的使用-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GPUImage的使用-dummy.m"; sourceTree = "<group>"; };
 		772F988AAD17E9D93064DDB8073DDF18 /* GPUImageMotionBlurFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageMotionBlurFilter.m; path = framework/Source/GPUImageMotionBlurFilter.m; sourceTree = "<group>"; };
+		794EAF7CC0B4CF1DCA3A860086E44010 /* Pods-美颜相机-GPUImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-美颜相机-GPUImage.debug.xcconfig"; sourceTree = "<group>"; };
 		79E8CB24F46AA9A51F87BBDF2D0AC238 /* GPUImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GPUImage.framework; path = GPUImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A41820E6741003D82A0E89379DCDD02 /* GPUImageRGBFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageRGBFilter.h; path = framework/Source/GPUImageRGBFilter.h; sourceTree = "<group>"; };
 		7C96C1F1FDCA41CD0A1A43DC858367D1 /* GPUImageColorPackingFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageColorPackingFilter.h; path = framework/Source/GPUImageColorPackingFilter.h; sourceTree = "<group>"; };
@@ -545,8 +563,8 @@
 		7CE3D7A65BC9B0AE84A59A310D1B4FF4 /* GPUImageMaskFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageMaskFilter.h; path = framework/Source/GPUImageMaskFilter.h; sourceTree = "<group>"; };
 		7DF50DB6BA4BBB3DB850B30B891B004B /* GPUImageSphereRefractionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageSphereRefractionFilter.h; path = framework/Source/GPUImageSphereRefractionFilter.h; sourceTree = "<group>"; };
 		7F5C5F28476346782649820F3CC80FF2 /* GPUImageSoftEleganceFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageSoftEleganceFilter.h; path = framework/Source/GPUImageSoftEleganceFilter.h; sourceTree = "<group>"; };
-		7F799D6ABB4E15B973BC97714E5F7D24 /* Pods-GPUImage的使用-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GPUImage的使用-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7FD157A32436044C4A7E8A5A5A337FD1 /* GPUImagePrewittEdgeDetectionFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImagePrewittEdgeDetectionFilter.m; path = framework/Source/GPUImagePrewittEdgeDetectionFilter.m; sourceTree = "<group>"; };
+		80293EDA2E17F9BD39F6F4120709C13C /* Pods-其他滤镜-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-其他滤镜-dummy.m"; sourceTree = "<group>"; };
 		80618D69D58F093D081F275607617A38 /* GPUImageSoftLightBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageSoftLightBlendFilter.h; path = framework/Source/GPUImageSoftLightBlendFilter.h; sourceTree = "<group>"; };
 		812170BFDBA63AE5B4937F50262D4EB4 /* GPUImageGaussianSelectiveBlurFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageGaussianSelectiveBlurFilter.m; path = framework/Source/GPUImageGaussianSelectiveBlurFilter.m; sourceTree = "<group>"; };
 		8125533977978D0F9301A56D0F057195 /* GPUImagePolkaDotFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImagePolkaDotFilter.h; path = framework/Source/GPUImagePolkaDotFilter.h; sourceTree = "<group>"; };
@@ -572,6 +590,7 @@
 		8D06493615C15B2B6F321A605271811A /* GPUImageMovieWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageMovieWriter.h; path = framework/Source/iOS/GPUImageMovieWriter.h; sourceTree = "<group>"; };
 		8D4A308C304D853C95DE4544CCB2A2F8 /* GPUImageDilationFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageDilationFilter.m; path = framework/Source/GPUImageDilationFilter.m; sourceTree = "<group>"; };
 		8E0CA17AE8095C46BB44F1EB9BA79C6D /* GPUImageColorInvertFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageColorInvertFilter.h; path = framework/Source/GPUImageColorInvertFilter.h; sourceTree = "<group>"; };
+		8E5A385B5A505EC4999D3B0BD0BA677D /* Pods-美颜相机-GPUImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-美颜相机-GPUImage-umbrella.h"; sourceTree = "<group>"; };
 		8E80B99652A81DA8FA7D0B5E4DC2BCBA /* GPUImageParallelCoordinateLineTransformFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageParallelCoordinateLineTransformFilter.m; path = framework/Source/GPUImageParallelCoordinateLineTransformFilter.m; sourceTree = "<group>"; };
 		8EB817B967F3F7F52D4A23764D03A155 /* Pods_GPUImage___.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GPUImage___.framework; path = "Pods-GPUImage的使用.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ECA0A9AB8B04C524030672B5FAE67BC /* GPUImageHazeFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageHazeFilter.h; path = framework/Source/GPUImageHazeFilter.h; sourceTree = "<group>"; };
@@ -638,40 +657,40 @@
 		B3604F9E49BAED88E300F0AF0454CA1E /* GPUImageLightenBlendFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageLightenBlendFilter.m; path = framework/Source/GPUImageLightenBlendFilter.m; sourceTree = "<group>"; };
 		B44F9BB29995F24DDE916B83A75736DD /* GPUImageLanczosResamplingFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageLanczosResamplingFilter.h; path = framework/Source/GPUImageLanczosResamplingFilter.h; sourceTree = "<group>"; };
 		B4637A6CEF6ADB308D82D4F90DBF8D41 /* GPUImageAlphaBlendFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageAlphaBlendFilter.m; path = framework/Source/GPUImageAlphaBlendFilter.m; sourceTree = "<group>"; };
-		B50B30BC6D35FC4BAD36767C5BDBBF93 /* Pods-GPUImage的使用-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPUImage的使用-Info.plist"; sourceTree = "<group>"; };
 		B5530DB2BD307BFB5F38A15FE5628AB9 /* GPUImageHueBlendFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageHueBlendFilter.m; path = framework/Source/GPUImageHueBlendFilter.m; sourceTree = "<group>"; };
 		B659A558C82281BB5C6AFABEF0379042 /* GPUImageAverageColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageAverageColor.m; path = framework/Source/GPUImageAverageColor.m; sourceTree = "<group>"; };
 		B90142C651CACBE4AF02F352FF445734 /* GPUImageToneCurveFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageToneCurveFilter.h; path = framework/Source/GPUImageToneCurveFilter.h; sourceTree = "<group>"; };
 		B9F750A9FB7B66CEC71C65B3466C2CBE /* GPUImageDarkenBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageDarkenBlendFilter.h; path = framework/Source/GPUImageDarkenBlendFilter.h; sourceTree = "<group>"; };
 		BB5B09F64BB69737E5E61EC647D558C8 /* GPUImageZoomBlurFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageZoomBlurFilter.m; path = framework/Source/GPUImageZoomBlurFilter.m; sourceTree = "<group>"; };
+		BC6E4A6E8018703B6D5520E0E7EF9564 /* Pods-GPUImage的使用-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GPUImage的使用-umbrella.h"; sourceTree = "<group>"; };
 		BDED3C4F0CDFBBAF796480B93767F354 /* GPUImageColorBurnBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageColorBurnBlendFilter.h; path = framework/Source/GPUImageColorBurnBlendFilter.h; sourceTree = "<group>"; };
-		BE7D61A2EB21DF2A07E9986A89A3AFCF /* Pods-其他滤镜.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-其他滤镜.modulemap"; sourceTree = "<group>"; };
 		BEF7E7BF58E6C861CFFEF162BA559B0D /* GPUImageParallelCoordinateLineTransformFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageParallelCoordinateLineTransformFilter.h; path = framework/Source/GPUImageParallelCoordinateLineTransformFilter.h; sourceTree = "<group>"; };
 		C0BE9BE7DF1EC466302CDBA3D22B592F /* GPUImageHistogramEqualizationFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageHistogramEqualizationFilter.h; path = framework/Source/GPUImageHistogramEqualizationFilter.h; sourceTree = "<group>"; };
 		C0EF72577159ECA268199B9A97C19868 /* GPUImageFilterPipeline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageFilterPipeline.m; path = framework/Source/GPUImageFilterPipeline.m; sourceTree = "<group>"; };
 		C12498E28B67FAA18D55471FD3E3B631 /* GPUImageAverageLuminanceThresholdFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageAverageLuminanceThresholdFilter.h; path = framework/Source/GPUImageAverageLuminanceThresholdFilter.h; sourceTree = "<group>"; };
 		C196E7B934696294AFBA7B59A088E9EC /* GPUImageHazeFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageHazeFilter.m; path = framework/Source/GPUImageHazeFilter.m; sourceTree = "<group>"; };
 		C2CBD3F8B874B8B33B2F8D0514AB25C8 /* GPUImageRGBDilationFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageRGBDilationFilter.h; path = framework/Source/GPUImageRGBDilationFilter.h; sourceTree = "<group>"; };
-		C336EBEF4D4188E682D434670E4382D0 /* Pods-其他滤镜-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-其他滤镜-acknowledgements.plist"; sourceTree = "<group>"; };
-		C34C3927B85F98CC29438503A61D06A7 /* Pods-GPUImage的使用-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GPUImage的使用-frameworks.sh"; sourceTree = "<group>"; };
 		C3FC367271AD2C7021A8F9502467AA7B /* GPUImageHueFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageHueFilter.h; path = framework/Source/GPUImageHueFilter.h; sourceTree = "<group>"; };
 		C46EAB8D028D9A0DC3B1E73542EB88BB /* GPUImageKuwaharaFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageKuwaharaFilter.h; path = framework/Source/GPUImageKuwaharaFilter.h; sourceTree = "<group>"; };
 		C4C764339F965D6823B843BE891F3E4C /* GPUImageLinearBurnBlendFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageLinearBurnBlendFilter.m; path = framework/Source/GPUImageLinearBurnBlendFilter.m; sourceTree = "<group>"; };
 		C4D1A1F85DB22643383EC6FB3BF9506A /* GPUImageLaplacianFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageLaplacianFilter.h; path = framework/Source/GPUImageLaplacianFilter.h; sourceTree = "<group>"; };
 		C53AF24C338A3254D7166D06ECD253F2 /* GPUImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GPUImage-dummy.m"; sourceTree = "<group>"; };
 		C57FE6103B9DF352A4F322938617FD5C /* GPUImageBoxBlurFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageBoxBlurFilter.m; path = framework/Source/GPUImageBoxBlurFilter.m; sourceTree = "<group>"; };
+		C5FBA312AABBFD397D7394638E3AC755 /* Pods-GPUImage的使用.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPUImage的使用.release.xcconfig"; sourceTree = "<group>"; };
 		C60CF800BBBE3E6395CCE65152056C73 /* GPUImageDilationFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageDilationFilter.h; path = framework/Source/GPUImageDilationFilter.h; sourceTree = "<group>"; };
+		C7B1D6598EC2A97031F4616BF1FA76E3 /* Pods-GPUImage的使用-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GPUImage的使用-frameworks.sh"; sourceTree = "<group>"; };
 		CAE49135738D02FB4CEC8FA0F9C0B7CA /* GPUImageDirectionalNonMaximumSuppressionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageDirectionalNonMaximumSuppressionFilter.h; path = framework/Source/GPUImageDirectionalNonMaximumSuppressionFilter.h; sourceTree = "<group>"; };
 		CAE8262908315A204ACCC27CE6007EDD /* GPUImageUnsharpMaskFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageUnsharpMaskFilter.h; path = framework/Source/GPUImageUnsharpMaskFilter.h; sourceTree = "<group>"; };
 		CB0CD78D05A285AC5447CF85F7D345CB /* GPUImageContrastFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageContrastFilter.m; path = framework/Source/GPUImageContrastFilter.m; sourceTree = "<group>"; };
+		CCAF84864E9B03E7B58C55287C304A09 /* Pods-其他滤镜-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-其他滤镜-Info.plist"; sourceTree = "<group>"; };
 		CCF8D0F41001ADD175382390414961F6 /* GPUImageLineGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageLineGenerator.m; path = framework/Source/GPUImageLineGenerator.m; sourceTree = "<group>"; };
 		CD4D7AC2A1D6F394FFFCDA4B8E02BE21 /* GPUImageVignetteFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageVignetteFilter.m; path = framework/Source/GPUImageVignetteFilter.m; sourceTree = "<group>"; };
 		CD606BE34C5E7697DCE0EF4CBBEBB989 /* GPUImageTextureOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageTextureOutput.h; path = framework/Source/GPUImageTextureOutput.h; sourceTree = "<group>"; };
 		CD9322364FAB6E605A912FD2DE6D486B /* GPUImageSubtractBlendFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageSubtractBlendFilter.m; path = framework/Source/GPUImageSubtractBlendFilter.m; sourceTree = "<group>"; };
+		CDF1933ACCC6B8E178407FDDF08529EC /* Pods-其他滤镜-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-其他滤镜-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CEBC05AA61B8BDD062CE8C7C71028BDB /* GPUImageGrayscaleFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageGrayscaleFilter.h; path = framework/Source/GPUImageGrayscaleFilter.h; sourceTree = "<group>"; };
 		CEC05FFF00CCB1D6ABDA83D5635AB30C /* GPUImageToneCurveFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageToneCurveFilter.m; path = framework/Source/GPUImageToneCurveFilter.m; sourceTree = "<group>"; };
 		CF6A6E55C8967A0F50AA4C590A74B273 /* GPUImageAverageColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageAverageColor.h; path = framework/Source/GPUImageAverageColor.h; sourceTree = "<group>"; };
-		D30E74F4A05B8B6A546D0BF766A2F53F /* Pods-其他滤镜.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-其他滤镜.release.xcconfig"; sourceTree = "<group>"; };
 		D3988699AC1577A60DBC3CD1ABC84910 /* GPUImageTwoInputFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageTwoInputFilter.h; path = framework/Source/GPUImageTwoInputFilter.h; sourceTree = "<group>"; };
 		D3E5A311871C06F36302311B170A2E82 /* GPUImageAmatorkaFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageAmatorkaFilter.m; path = framework/Source/GPUImageAmatorkaFilter.m; sourceTree = "<group>"; };
 		D3E77EFAB4054E460B55CC44A0DB1BEA /* GPUImageHueFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageHueFilter.m; path = framework/Source/GPUImageHueFilter.m; sourceTree = "<group>"; };
@@ -681,22 +700,21 @@
 		D604A086CA6EBD6E8E1F428977445EF4 /* GPUImageFramebuffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageFramebuffer.m; path = framework/Source/GPUImageFramebuffer.m; sourceTree = "<group>"; };
 		D621C800395D1F7C93B98F9BA04FF9FE /* GPUImageHistogramGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageHistogramGenerator.h; path = framework/Source/GPUImageHistogramGenerator.h; sourceTree = "<group>"; };
 		D65279FDC2786B70E64DC91742F8F2BA /* GPUImage3x3ConvolutionFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImage3x3ConvolutionFilter.m; path = framework/Source/GPUImage3x3ConvolutionFilter.m; sourceTree = "<group>"; };
+		D657750EB48B9B3A7F8B938CFFBA2F7F /* Pods-其他滤镜.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-其他滤镜.release.xcconfig"; sourceTree = "<group>"; };
 		D95214CF307EB21CB50E742B18814692 /* GPUImageKuwaharaFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageKuwaharaFilter.m; path = framework/Source/GPUImageKuwaharaFilter.m; sourceTree = "<group>"; };
 		DA50B90B69BB712A2F1706C036FFF663 /* GPUImageFramebufferCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageFramebufferCache.m; path = framework/Source/GPUImageFramebufferCache.m; sourceTree = "<group>"; };
+		DA691C259387536E2964F4569214E595 /* Pods-其他滤镜-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-其他滤镜-frameworks.sh"; sourceTree = "<group>"; };
 		DC5ACD8428BE80368A547B808BA1DC8D /* GPUImageExposureFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageExposureFilter.m; path = framework/Source/GPUImageExposureFilter.m; sourceTree = "<group>"; };
 		DC7C8111FACE6C10B77421017B11F903 /* GPUImageSharpenFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageSharpenFilter.h; path = framework/Source/GPUImageSharpenFilter.h; sourceTree = "<group>"; };
 		DCC59A80B0B3E09B61A8BCA78021E5A7 /* GPUImageVoronoiConsumerFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageVoronoiConsumerFilter.m; path = framework/Source/GPUImageVoronoiConsumerFilter.m; sourceTree = "<group>"; };
 		DCDB599199892457DEB5A060FDDD1B6C /* GPUImageFramebufferCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageFramebufferCache.h; path = framework/Source/GPUImageFramebufferCache.h; sourceTree = "<group>"; };
 		DE1143F0B3B591B3FF6FC7CDABDFF578 /* GPUImagePoissonBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImagePoissonBlendFilter.h; path = framework/Source/GPUImagePoissonBlendFilter.h; sourceTree = "<group>"; };
-		DEBFF4FA9EA912E812D5845611786E21 /* Pods-其他滤镜.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-其他滤镜.debug.xcconfig"; sourceTree = "<group>"; };
 		DF6F6BE8FC0A6AD02E43F53614DA6115 /* GPUImageOutput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageOutput.m; path = framework/Source/GPUImageOutput.m; sourceTree = "<group>"; };
 		DF809DAEC700766FEF423A62BC22B63F /* GPUImageLuminanceRangeFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageLuminanceRangeFilter.m; path = framework/Source/GPUImageLuminanceRangeFilter.m; sourceTree = "<group>"; };
 		DFF56DD7B5B356565791EF5BAF1646DC /* GPUImageOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageOutput.h; path = framework/Source/GPUImageOutput.h; sourceTree = "<group>"; };
 		E028EB3C33D76676037BDB201A365BE8 /* GPUImageExclusionBlendFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageExclusionBlendFilter.m; path = framework/Source/GPUImageExclusionBlendFilter.m; sourceTree = "<group>"; };
 		E19D2B37C815C0419EC86A64B46E64AE /* GPUImagePolarPixellateFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImagePolarPixellateFilter.m; path = framework/Source/GPUImagePolarPixellateFilter.m; sourceTree = "<group>"; };
-		E215919FCA2148B08A534CFF7CB2A02A /* Pods-GPUImage的使用.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPUImage的使用.release.xcconfig"; sourceTree = "<group>"; };
 		E4CDAD6E0B6EEABE23726928D9120332 /* GPUImageNormalBlendFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageNormalBlendFilter.m; path = framework/Source/GPUImageNormalBlendFilter.m; sourceTree = "<group>"; };
-		E510C71758A2C3847BD6332DB3A5672F /* Pods-GPUImage的使用-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPUImage的使用-acknowledgements.plist"; sourceTree = "<group>"; };
 		E530C628140724DAEAF3605F27F13010 /* GPUImageFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageFramework.h; path = framework/Source/iOS/Framework/GPUImageFramework.h; sourceTree = "<group>"; };
 		E5548EF6C63EA3270BEC439CE4EB94FE /* GPUImageCrosshairGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageCrosshairGenerator.m; path = framework/Source/GPUImageCrosshairGenerator.m; sourceTree = "<group>"; };
 		E5C3D2CC70C94B37D81725683F69D9F7 /* GPUImageCrosshairGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageCrosshairGenerator.h; path = framework/Source/GPUImageCrosshairGenerator.h; sourceTree = "<group>"; };
@@ -705,6 +723,8 @@
 		E76DFE2E62E2E1EC55C2B218D51355FC /* GPUImageTwoPassFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageTwoPassFilter.m; path = framework/Source/GPUImageTwoPassFilter.m; sourceTree = "<group>"; };
 		E7D46063F2850173ED0B0CB9F021E03F /* GPUImageBuffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageBuffer.m; path = framework/Source/GPUImageBuffer.m; sourceTree = "<group>"; };
 		EACEB09E0C9EA9283063E3F7BFA4EFDD /* GPUImageLuminosity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageLuminosity.m; path = framework/Source/GPUImageLuminosity.m; sourceTree = "<group>"; };
+		EAD00A2E69A922B30675740B75CBB159 /* Pods-其他滤镜.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-其他滤镜.debug.xcconfig"; sourceTree = "<group>"; };
+		EB191601942331B6C866E08265A5A0A7 /* Pods-GPUImage的使用.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPUImage的使用.debug.xcconfig"; sourceTree = "<group>"; };
 		EBB2E676B16781F5D6702F936B52F388 /* GPUImageGaussianBlurFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageGaussianBlurFilter.m; path = framework/Source/GPUImageGaussianBlurFilter.m; sourceTree = "<group>"; };
 		EBDA1B5347269D3C5F56A3948522C7C4 /* GPUImagePixellatePositionFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImagePixellatePositionFilter.m; path = framework/Source/GPUImagePixellatePositionFilter.m; sourceTree = "<group>"; };
 		EC5FD5FD99BEC97CD6609F3869197972 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -736,9 +756,9 @@
 		F7AB3E2896FB1875191A837205C9E9A6 /* GPUImageScreenBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageScreenBlendFilter.h; path = framework/Source/GPUImageScreenBlendFilter.h; sourceTree = "<group>"; };
 		F91C0ABDCB34B0E4CACD4EFEE5B8C9CE /* GPUImageChromaKeyFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageChromaKeyFilter.m; path = framework/Source/GPUImageChromaKeyFilter.m; sourceTree = "<group>"; };
 		F9BCB94A64AA63A54E8133556F1DE254 /* GPUImageToonFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageToonFilter.m; path = framework/Source/GPUImageToonFilter.m; sourceTree = "<group>"; };
-		FA2A6AF55B1E6570A9B65BDEA1274CB9 /* Pods-GPUImage的使用-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GPUImage的使用-dummy.m"; sourceTree = "<group>"; };
 		FB41E346E72C3EA5CF1D4389E1A45372 /* GPUImageTwoPassTextureSamplingFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPUImageTwoPassTextureSamplingFilter.m; path = framework/Source/GPUImageTwoPassTextureSamplingFilter.m; sourceTree = "<group>"; };
 		FC41C052715B0045F30ABB3BA191AD4A /* GPUImageMultiplyBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageMultiplyBlendFilter.h; path = framework/Source/GPUImageMultiplyBlendFilter.h; sourceTree = "<group>"; };
+		FD72909D0B270706E21C7913EDAF5F91 /* Pods-美颜相机-GPUImage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-美颜相机-GPUImage-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FD8196D611BCF92F38F236FAA0F2C006 /* GPUImageBilateralFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageBilateralFilter.h; path = framework/Source/GPUImageBilateralFilter.h; sourceTree = "<group>"; };
 		FE0E0B24C82F98B7D1F42875232801C0 /* GPUImageColorBlendFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageColorBlendFilter.h; path = framework/Source/GPUImageColorBlendFilter.h; sourceTree = "<group>"; };
 		FF0201E1AD39EA4F64FC3B497DAA0B2B /* GPUImageHoughTransformLineDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPUImageHoughTransformLineDetector.h; path = framework/Source/GPUImageHoughTransformLineDetector.h; sourceTree = "<group>"; };
@@ -775,6 +795,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF463B8393D0BD7504F698DEDC435984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D44E2F4BEFEDB5381B3FB1B158B4A9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -793,18 +821,18 @@
 			path = "../Target Support Files/GPUImage";
 			sourceTree = "<group>";
 		};
-		0B2A044EDAF158E185006AE5C98D5B24 /* Pods-GPUImage的使用 */ = {
+		1904C75A31A91751C49AEE84385F1223 /* Pods-GPUImage的使用 */ = {
 			isa = PBXGroup;
 			children = (
-				2461CFD1CEE98BB541339583079C82F1 /* Pods-GPUImage的使用.modulemap */,
-				7F799D6ABB4E15B973BC97714E5F7D24 /* Pods-GPUImage的使用-acknowledgements.markdown */,
-				E510C71758A2C3847BD6332DB3A5672F /* Pods-GPUImage的使用-acknowledgements.plist */,
-				FA2A6AF55B1E6570A9B65BDEA1274CB9 /* Pods-GPUImage的使用-dummy.m */,
-				C34C3927B85F98CC29438503A61D06A7 /* Pods-GPUImage的使用-frameworks.sh */,
-				B50B30BC6D35FC4BAD36767C5BDBBF93 /* Pods-GPUImage的使用-Info.plist */,
-				7237276E1FAE13BE132C41FC9729EFA8 /* Pods-GPUImage的使用-umbrella.h */,
-				24C1330FB56441EA6670C2E0CC3C1179 /* Pods-GPUImage的使用.debug.xcconfig */,
-				E215919FCA2148B08A534CFF7CB2A02A /* Pods-GPUImage的使用.release.xcconfig */,
+				4490759C0E421F631FAF358EBDDE18B8 /* Pods-GPUImage的使用.modulemap */,
+				40B0C50252BEC388B8470DDB05DB626C /* Pods-GPUImage的使用-acknowledgements.markdown */,
+				36ECCB2614009CD5F065123AE6133C52 /* Pods-GPUImage的使用-acknowledgements.plist */,
+				770BA482FA50FCEAFB93EE4FCDABB358 /* Pods-GPUImage的使用-dummy.m */,
+				C7B1D6598EC2A97031F4616BF1FA76E3 /* Pods-GPUImage的使用-frameworks.sh */,
+				4CBA3C1BB96B99C1C3B20A3AC72AD1C5 /* Pods-GPUImage的使用-Info.plist */,
+				BC6E4A6E8018703B6D5520E0E7EF9564 /* Pods-GPUImage的使用-umbrella.h */,
+				EB191601942331B6C866E08265A5A0A7 /* Pods-GPUImage的使用.debug.xcconfig */,
+				C5FBA312AABBFD397D7394638E3AC755 /* Pods-GPUImage的使用.release.xcconfig */,
 			);
 			name = "Pods-GPUImage的使用";
 			path = "Target Support Files/Pods-GPUImage的使用";
@@ -842,20 +870,39 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		8497E2EF76742A5C237F57A6228DCD35 /* Targets Support Files */ = {
+		6B1C52006392E066B4A05852CB6A5337 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0B2A044EDAF158E185006AE5C98D5B24 /* Pods-GPUImage的使用 */,
-				F9343C2E224DE2FF0BCD78A5DD8F9F31 /* Pods-其他滤镜 */,
+				1904C75A31A91751C49AEE84385F1223 /* Pods-GPUImage的使用 */,
+				8C1529D61F28C7F98DC0BFFC0E26C464 /* Pods-其他滤镜 */,
+				EAA5FD1E2BE279359C51974904B183A0 /* Pods-美颜相机-GPUImage */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9705FC7445FD01A55372ABAAE3D72760 /* Products */ = {
+		8C1529D61F28C7F98DC0BFFC0E26C464 /* Pods-其他滤镜 */ = {
+			isa = PBXGroup;
+			children = (
+				11B7BB878889922BFD397D9EC598584A /* Pods-其他滤镜.modulemap */,
+				CDF1933ACCC6B8E178407FDDF08529EC /* Pods-其他滤镜-acknowledgements.markdown */,
+				40B41280101E1EA6F06FC9DE7929231F /* Pods-其他滤镜-acknowledgements.plist */,
+				80293EDA2E17F9BD39F6F4120709C13C /* Pods-其他滤镜-dummy.m */,
+				DA691C259387536E2964F4569214E595 /* Pods-其他滤镜-frameworks.sh */,
+				CCAF84864E9B03E7B58C55287C304A09 /* Pods-其他滤镜-Info.plist */,
+				3BD1999C26C8ECEA169850F362370D27 /* Pods-其他滤镜-umbrella.h */,
+				EAD00A2E69A922B30675740B75CBB159 /* Pods-其他滤镜.debug.xcconfig */,
+				D657750EB48B9B3A7F8B938CFFBA2F7F /* Pods-其他滤镜.release.xcconfig */,
+			);
+			name = "Pods-其他滤镜";
+			path = "Target Support Files/Pods-其他滤镜";
+			sourceTree = "<group>";
+		};
+		B6E9CEE5C5F3E770B5BBD1E55F3B7C9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				79E8CB24F46AA9A51F87BBDF2D0AC238 /* GPUImage.framework */,
 				013D557460D9A322E65B94DC8A95E3C2 /* Pods_____.framework */,
+				4A6A3676F5DE5F54E57AD6303EC0B939 /* Pods______GPUImage.framework */,
 				8EB817B967F3F7F52D4A23764D03A155 /* Pods_GPUImage___.framework */,
 			);
 			name = Products;
@@ -1215,31 +1262,39 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
 				2000866E43C95815EA930C2E40F95470 /* Pods */,
-				9705FC7445FD01A55372ABAAE3D72760 /* Products */,
-				8497E2EF76742A5C237F57A6228DCD35 /* Targets Support Files */,
+				B6E9CEE5C5F3E770B5BBD1E55F3B7C9D /* Products */,
+				6B1C52006392E066B4A05852CB6A5337 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		F9343C2E224DE2FF0BCD78A5DD8F9F31 /* Pods-其他滤镜 */ = {
+		EAA5FD1E2BE279359C51974904B183A0 /* Pods-美颜相机-GPUImage */ = {
 			isa = PBXGroup;
 			children = (
-				BE7D61A2EB21DF2A07E9986A89A3AFCF /* Pods-其他滤镜.modulemap */,
-				25CD82806465237143A83FCB9EDD36B5 /* Pods-其他滤镜-acknowledgements.markdown */,
-				C336EBEF4D4188E682D434670E4382D0 /* Pods-其他滤镜-acknowledgements.plist */,
-				6D6CC6E07048732A719EDF3559824801 /* Pods-其他滤镜-dummy.m */,
-				1B560600CBC3BAD2D79FBBD8F4030E0A /* Pods-其他滤镜-frameworks.sh */,
-				39BD62ED12B96D7A9B03E637A5995E1F /* Pods-其他滤镜-Info.plist */,
-				3D5C30C768024DD572C10532EEF50743 /* Pods-其他滤镜-umbrella.h */,
-				DEBFF4FA9EA912E812D5845611786E21 /* Pods-其他滤镜.debug.xcconfig */,
-				D30E74F4A05B8B6A546D0BF766A2F53F /* Pods-其他滤镜.release.xcconfig */,
+				388C33CD9B317A8E1C200689DB638DCB /* Pods-美颜相机-GPUImage.modulemap */,
+				FD72909D0B270706E21C7913EDAF5F91 /* Pods-美颜相机-GPUImage-acknowledgements.markdown */,
+				2D0886A27D053B959EE1B53FEB88A49F /* Pods-美颜相机-GPUImage-acknowledgements.plist */,
+				61438E87EAC64B478AAB1F8C95665D11 /* Pods-美颜相机-GPUImage-dummy.m */,
+				450E23C336AA10D17E401816EFF0BE2C /* Pods-美颜相机-GPUImage-frameworks.sh */,
+				00B0BF8497EE07AC9F579A021098EE9B /* Pods-美颜相机-GPUImage-Info.plist */,
+				8E5A385B5A505EC4999D3B0BD0BA677D /* Pods-美颜相机-GPUImage-umbrella.h */,
+				794EAF7CC0B4CF1DCA3A860086E44010 /* Pods-美颜相机-GPUImage.debug.xcconfig */,
+				197F388BAB9ACF578E833FEA84CFB93E /* Pods-美颜相机-GPUImage.release.xcconfig */,
 			);
-			name = "Pods-其他滤镜";
-			path = "Target Support Files/Pods-其他滤镜";
+			name = "Pods-美颜相机-GPUImage";
+			path = "Target Support Files/Pods-美颜相机-GPUImage";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2B2F71C51B8929EE96120691FCA6A97A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55AF7A27B3BFFD8BE005B95D9667CDE /* Pods-美颜相机-GPUImage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		46CD81DB102FC91DA17FB0FD0A606C11 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1451,6 +1506,25 @@
 			productReference = 79E8CB24F46AA9A51F87BBDF2D0AC238 /* GPUImage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		E889A838C689B87981365C64EAE95922 /* Pods-美颜相机-GPUImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A3A4C4326EDBA810BEB5509D8D32B40 /* Build configuration list for PBXNativeTarget "Pods-美颜相机-GPUImage" */;
+			buildPhases = (
+				2B2F71C51B8929EE96120691FCA6A97A /* Headers */,
+				C95F63C936E2069119159A2C691DD5DA /* Sources */,
+				DF463B8393D0BD7504F698DEDC435984 /* Frameworks */,
+				CEAD6A5C0F0772E73269DC15D9F9B6BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53F41D8D100FA0966C809BB25A9F6C3A /* PBXTargetDependency */,
+			);
+			name = "Pods-美颜相机-GPUImage";
+			productName = "Pods-美颜相机-GPUImage";
+			productReference = 4A6A3676F5DE5F54E57AD6303EC0B939 /* Pods______GPUImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		ED99BA261DE6FF61BAFEA5324B410007 /* Pods-GPUImage的使用 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E60569FA6BB966AAE6BC4F5F90597B3 /* Build configuration list for PBXNativeTarget "Pods-GPUImage的使用" */;
@@ -1507,13 +1581,14 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9705FC7445FD01A55372ABAAE3D72760 /* Products */;
+			productRefGroup = B6E9CEE5C5F3E770B5BBD1E55F3B7C9D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				DB13B1641D72A72D8C9AE53FF81C8950 /* GPUImage */,
 				ED99BA261DE6FF61BAFEA5324B410007 /* Pods-GPUImage的使用 */,
 				F2B12F0504A45E594A347C6229D098E4 /* Pods-其他滤镜 */,
+				E889A838C689B87981365C64EAE95922 /* Pods-美颜相机-GPUImage */,
 			);
 		};
 /* End PBXProject section */
@@ -1527,6 +1602,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BB0CC3D58756A2BB9B85BFAFD77B5CFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAD6A5C0F0772E73269DC15D9F9B6BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1728,6 +1810,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C95F63C936E2069119159A2C691DD5DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC88C09C0064C1937E54E0EBD76047D0 /* Pods-美颜相机-GPUImage-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CD8A02EC044933E0D037B45E4683166A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1744,6 +1834,12 @@
 			name = GPUImage;
 			target = DB13B1641D72A72D8C9AE53FF81C8950 /* GPUImage */;
 			targetProxy = 4A4E81400FE47C71EC6F10FC953BC332 /* PBXContainerItemProxy */;
+		};
+		53F41D8D100FA0966C809BB25A9F6C3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImage;
+			target = DB13B1641D72A72D8C9AE53FF81C8950 /* GPUImage */;
+			targetProxy = EB6D4D9933DFE1026F5A144D0F964CB3 /* PBXContainerItemProxy */;
 		};
 		BCFC29704272EE5AA445CF630A9193BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1791,7 +1887,7 @@
 		};
 		171312842CFBFB60763CC6D9746901A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEBFF4FA9EA912E812D5845611786E21 /* Pods-其他滤镜.debug.xcconfig */;
+			baseConfigurationReference = EAD00A2E69A922B30675740B75CBB159 /* Pods-其他滤镜.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1825,6 +1921,44 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		5E26075AE0DCE27AD7B117DE2A9D81FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 197F388BAB9ACF578E833FEA84CFB93E /* Pods-美颜相机-GPUImage.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-美颜相机-GPUImage/Pods-美颜相机-GPUImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-美颜相机-GPUImage/Pods-美颜相机-GPUImage.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		832E19A3DE5F21F482A8166E702AAC5C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1988,7 +2122,7 @@
 		};
 		B0D6D6F3D23A7BEF74C13E2940E66695 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E215919FCA2148B08A534CFF7CB2A02A /* Pods-GPUImage的使用.release.xcconfig */;
+			baseConfigurationReference = C5FBA312AABBFD397D7394638E3AC755 /* Pods-GPUImage的使用.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -2026,7 +2160,7 @@
 		};
 		C681280FE673048700D219F3C4CFE332 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D30E74F4A05B8B6A546D0BF766A2F53F /* Pods-其他滤镜.release.xcconfig */;
+			baseConfigurationReference = D657750EB48B9B3A7F8B938CFFBA2F7F /* Pods-其他滤镜.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -2062,9 +2196,46 @@
 			};
 			name = Release;
 		};
+		D07E98FF5B2828C2C34309E9AF181F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 794EAF7CC0B4CF1DCA3A860086E44010 /* Pods-美颜相机-GPUImage.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-美颜相机-GPUImage/Pods-美颜相机-GPUImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-美颜相机-GPUImage/Pods-美颜相机-GPUImage.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		E7408FA302A414D75F6815F26B039527 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24C1330FB56441EA6670C2E0CC3C1179 /* Pods-GPUImage的使用.debug.xcconfig */;
+			baseConfigurationReference = EB191601942331B6C866E08265A5A0A7 /* Pods-GPUImage的使用.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -2134,6 +2305,15 @@
 			buildConfigurations = (
 				171312842CFBFB60763CC6D9746901A1 /* Debug */,
 				C681280FE673048700D219F3C4CFE332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A3A4C4326EDBA810BEB5509D8D32B40 /* Build configuration list for PBXNativeTarget "Pods-美颜相机-GPUImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D07E98FF5B2828C2C34309E9AF181F81 /* Debug */,
+				5E26075AE0DCE27AD7B117DE2A9D81FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
